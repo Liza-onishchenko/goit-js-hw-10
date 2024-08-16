@@ -1,0 +1,186 @@
+.flatpickr-input{
+    border-radius: 4px;
+    width: 280px;
+    height: 40px;
+    background: #fff;
+    font-family: "Montserrat", sans-serif;;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    padding-left: 16px;
+    margin-left: 25px;
+    
+}
+
+
+.flatpickr-calendar.open{
+    margin-left: 0;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 8px;
+    padding: 16px;
+    height: 352px !important;
+    background: #f5f5f5;
+}
+
+button{
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 75px;
+    background: #cfcfcf;
+    font-family: "Montserrat", sans-serif;;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #989898;
+}
+
+button:hover{
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 75px;
+    height: 40px;
+    background: #6c8cff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+button:active{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+.timer{
+    display: flex;
+    margin-left: 25px;
+}
+
+.field{
+    margin-top: 32px;
+    padding-right: 24px;
+    width: 55px;
+    height: 72px;
+}
+
+.field span{
+    display: grid;
+}
+
+.value{
+    font-family:  "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.label{  
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #2e2f42;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+
+/* Snackbar */
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    width: 360px;
+
+}
+
+.item-label{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 72px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.input-number{
+    margin-top: 8px;
+    height: 40px;
+    border-radius: 4px  ;
+    color: #808080;
+}
+
+.item-fieldset{
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px  ;
+    margin-top: 16px;
+    height: 78px;
+}
+
+.item-state{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #2e2f42;
+}
+
+.item-fulfilled{
+
+    width: 104px;
+    height: 32px;
+    
+    margin-bottom: 8px;
+    margin-top: 24px;
+    margin-left: 48px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #2e2f42;
+
+}
+
+.item-rejected{
+    font-family: "Montserrat", sans-serif;
+    width: 104px;
+    height: 32px;
+    
+    margin-bottom: 8px;
+    margin-top: 24px;
+    margin-left: 48px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #2e2f42;
+
+}
+
+.button-submit{
+    border-radius: 8px;
+padding: 8px 16px;
+width: 360px;
+height: 40px;
+background: #4e75ff;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #fff;
+margin-top: 24px;
+}
